@@ -1,8 +1,8 @@
 package one.dio.personapidio.controller;
 
+import lombok.AllArgsConstructor;
 import one.dio.personapidio.dto.MessageResponseDTO;
 import one.dio.personapidio.dto.request.PersonDTO;
-import one.dio.personapidio.entity.Person;
 import one.dio.personapidio.exception.PersonNotFoundException;
 import one.dio.personapidio.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,14 +14,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
+@AllArgsConstructor(onConstructor = @__(@Autowired))  // Forma de passar constructor com injeção de dependência
 public class PersonController {
 
     private PersonService personService;
-
-    @Autowired
-    public PersonController(PersonService personService) {
-        this.personService = personService;
-    }
 
     @GetMapping(value = "/test")
     public String testApi() {
