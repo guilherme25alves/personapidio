@@ -1,3 +1,11 @@
 Forma de acesso ao banco de dados do h2
 
 http://localhost:8080/h2-console
+
+Uso da bibliotecas :
+
+    - javax.validation : usada para adicionar validações através de annotations, podendo ser usada
+        em classes DTO, na request, validando na Controller;
+
+    - Map Struct : biblioteca usada para facilitar o mapeamento e o parse de uma classe DTO para Entity
+        para persistência/operações com banco de dados e outros fins.
