@@ -17,6 +17,9 @@ Para executar o projeto pelo terminal, usar o comando
 mvn spring-boot:run
 ```
 
+Link API no HEROKU
+
+[Person API - Java Spring](https://personapidio-bootcamp.herokuapp.com/api/v1/people)
 
 Após execução do comando, você terá acesso aos seguintes endpoints :
 
