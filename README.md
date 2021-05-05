@@ -25,7 +25,7 @@ Após execução do comando, você terá acesso aos seguintes endpoints :
 
 | Endpoint  |  Http Verbo  |  Funcionalidade  |
 | ------------------- | ------------------- | ------------------- |
-|  http://localhost:8080/api/v1/people/teste |  GET | Endpoint teste retorna apenas um texto |
+|  http://localhost:8080/api/v1/people/test |  GET | Endpoint teste retorna apenas um texto |
 | http://localhost:8080/api/v1/people |  GET | Retorna uma lista de Pessoas |
 | http://localhost:8080/api/v1/people |  POST | Persisti um novo objeto Pessoa |
 | http://localhost:8080/api/v1/people/{id} |  GET | Recupera uma pessoa a partir de um ID |
